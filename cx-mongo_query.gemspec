@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'cx/mongo_query/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'cx-mongo'
+  spec.name          = 'cx-mongo_query'
   spec.version       = CX::Mongo::Query::VERSION
   spec.date          = '2015-10-02'
   spec.summary       = 'Shorthand helpers for constructing readable Mongo query args'
